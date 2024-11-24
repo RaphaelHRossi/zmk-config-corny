@@ -20,7 +20,7 @@
 include:
   - board: nice_nano_v2
     shield: corne_left
-    cmake-args: "-DCONFIG_USB=y -DCONFIG_ZMK_USB=y -DCONFIG_ZMK_BLE=n"
+    cmake-args: "-DCONFIG_USB_DEVICE_STACK=y -DCONFIG_ZMK_USB=y -DCONFIG_ZMK_BLE=n"
   - board: nice_nano_v2
     shield: corne_right
-    cmake-args: "-DCONFIG_USB=y -DCONFIG_ZMK_USB=y -DCONFIG_ZMK_BLE=n"
+    cmake-args: "-DCONFIG_USB_DEVICE_STACK=y -DCONFIG_ZMK_USB=y -DCONFIG_ZMK_BLE=n"
